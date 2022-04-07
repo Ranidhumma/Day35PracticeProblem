@@ -58,7 +58,7 @@ public class EmployeePayrollServiceTest {
 	public void givenName_WhenFound_ShouldReturnEmployeeDetails() {
 
 		EmployeePayrollService employeePayrollService = new EmployeePayrollService();
-		String name = "";
+		String name = "Rani";
 		List<EmployeePayrollData> employeePayrollData = employeePayrollService
 				.getEmployeeDetailsBasedOnName(EmployeePayrollService.IOService.DB_IO, name);
 		String resultName = employeePayrollData.get(0).employeeName;

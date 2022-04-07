@@ -28,7 +28,7 @@ public class EmployeePayrollDBService {
 
 		String jdbcURL = "jdbc:mysql://localhost:3306/employee_payroll";
 		String userName = "root";
-		String password = "Jia@21AZ";
+		String password = "Pass@12";
 		Connection connection;
 
 		System.out.println("Connecting to the database : " + jdbcURL);
